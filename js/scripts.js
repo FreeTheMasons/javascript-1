@@ -19,7 +19,7 @@ var sentence = "mason"; //example of primative string, will be converted to stri
 //
 // console.log(animals)
 // console.log(animals[0])
-const BESTMOVIE = [1,2]
+// const BESTMOVIE = [1,2]
 //
 // if(typeof(BESTMOVIE) === 'string') {
 //   alert("hey its a string!!!!");
@@ -29,27 +29,27 @@ const BESTMOVIE = [1,2]
 // else {
 //   alert('yo its not a string');
 // }
-console.log(typeof(BESTMOVIE))
-
-switch(typeof(BESTMOVIE)) {
-  case 'string':
-    alert("its a string!")
-    break;
-  case 'number':
-    alert("its a number!")
-    break;
-  case 'boolean':
-    alert('its a boolean')
-    break;
-  case 'undefined':
-    alert('oopsies its undefined')
-    break;
-  case 'object':
-    alert('its an object')
-    break;
-  default:
-    alert('its an array')
-    break;
-}
-
-BESTMOVIE != undefined ? alert('it exists') : alert('it doesn\'t exist');
+// console.log(typeof(BESTMOVIE))
+//
+// switch(typeof(BESTMOVIE)) {
+//   case 'string':
+//     alert("its a string!")
+//     break;
+//   case 'number':
+//     alert("its a number!")
+//     break;
+//   case 'boolean':
+//     alert('its a boolean')
+//     break;
+//   case 'undefined':
+//     alert('oopsies its undefined')
+//     break;
+//   case 'object':
+//     alert('its an object')
+//     break;
+//   default:
+//     alert('its an array')
+//     break;
+// }
+//
+// BESTMOVIE != undefined ? alert('it exists') : alert('it doesn\'t exist');
