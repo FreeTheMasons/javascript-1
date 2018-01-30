@@ -1,0 +1,53 @@
+/* help from: https://codepen.io/webbushka/pen/BrhuC?page=2 Thanks! */
+
+*{box-sizing: border-box;}
+body{
+  padding: 3em;
+}
+.nav{
+  width: 20%;
+  min-width: 18em;
+  margin: 0 auto;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+  font: 2em/1em sans-serif;
+  cursor: pointer;
+  user-select: none;
+  height: 2.1em;
+}
+.dropdown:after{
+  content:"";
+  border: 10px solid transparent;
+  border-top-color: #ccc;
+  position: absolute;
+  right: -30px;
+  top: 15px;
+}
+.dropdown:hover + .menu{
+  display: block;
+  position: relative;
+  top: -40px;
+}
+.menu{
+ background: #eee;
+ border: 1px solid #ddd;
+ border-radius: 1%;
+ display: none;
+ position: relative;
+ top: -40px;
+}
+.menu:hover{
+  display: block;
+}
+.menuItem{
+ padding: 3% 5%;
+ border-top: 1px solid #fff;
+ border-bottom: 1px solid #ddd;
+ cursor: pointer;
+ list-style: none;
+}
+.menuItem:first-child{border-top: none;}
+.menuItem:last-child{border-bottom: none;}
+.menuItem:hover{background: linear-gradient(#eee,#ddd);}

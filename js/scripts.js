@@ -1,21 +1,36 @@
-var sentence = "mason"; //example of primative string, will be converted to string object if method used on it -> bad practice
+var name = prompt('What is your name?');
 
-console.log(sentence);
+var color = prompt('What is your favorite color?', 'green, blue, yellow, orange, pink, purple, red, white, brown, black?');
 
-// let is scoped to the block its in, not hoisted
-// var is global even if its defined in a block
-
-// new is a keyword that cannot be reused
-
-var rightNow = new Date();
-console.log(rightNow);
-
-var word = new String("mason is my name") // advantage of creating string object -> methods
-
-console.log(word.toUpperCase());
-
-
-var animals = ['monkey', 'poodle']
-
-console.log(animals)
-console.log(animals[0])
+switch(color) {
+  case 'green':
+    alert(name + ', green is my favorite color too!')
+    break;
+  case 'blue':
+    alert('Why are you feeling so blue today, ' + name + '?')
+    break;
+  case 'yellow':
+    alert(name + ' lives in a yellow submarine')
+    break;
+  case 'orange':
+    alert('Eat an orange, ' + name)
+    break;
+  case 'pink':
+    alert(name + ' looks pretty in pink')
+    break;
+  case 'purple':
+    alert('Purple haze all in ' + name +'\'s eyes')
+    break;
+  case 'red':
+    alert(name + ', red reminds me of reindeers.')
+    break;
+  case 'white':
+    alert('So much for a white winter this year, right ' + name + '?');
+    break;
+  case 'brown':
+    alert(name + ', I know that your poop is brown.')
+    break;
+  case 'black':
+    alert('Wanna people watch with me on black friday, ' + name + '?')
+    break;
+}

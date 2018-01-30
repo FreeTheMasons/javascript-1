@@ -49,18 +49,18 @@
 // num2 = parseInt(num2);
 // alert(num1+num2);
 
-var age = prompt('what is your age?');
-
-// age = parseInt(age);
-
-if(age >= 18 && age < 80) {
-  var star = prompt('do you like star wars? yes or no');
-  if(star != 'no'){
-    alert('you are pretty cool')
-  }
-} else if(age < 18) {
-  alert('you are not allowed, you are too young');
-}
-  else if(age > 80){
-    prompt('do you like prunes?');
-  }
+// var age = prompt('what is your age?');
+//
+// // age = parseInt(age);
+//
+// if(age >= 18 && age < 80) {
+//   var star = prompt('do you like star wars? yes or no');
+//   if(star != 'no'){
+//     alert('you are pretty cool')
+//   }
+// } else if(age < 18) {
+//   alert('you are not allowed, you are too young');
+// }
+//   else if(age > 80){
+//     prompt('do you like prunes?');
+//   }
