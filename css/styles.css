@@ -1,5 +1,5 @@
 /* help from: https://codepen.io/webbushka/pen/BrhuC?page=2 Thanks! */
-
+/*
 *{box-sizing: border-box;}
 body{
   padding: 3em;
@@ -50,4 +50,4 @@ body{
 }
 .menuItem:first-child{border-top: none;}
 .menuItem:last-child{border-bottom: none;}
-.menuItem:hover{background: linear-gradient(#eee,#ddd);}
+.menuItem:hover{background: linear-gradient(#eee,#ddd);} */
