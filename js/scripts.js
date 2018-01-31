@@ -15,10 +15,10 @@
 // console.log(me)
 
 var fav1 = ['BOTW', 'Link']
-var fav2 = [' Ocarina', 'Navi']
-var fav3 = [' What Remains of Edith Finch?', 'Edith']
-var fav4 = [' Journey', 'Robe dude']
-var fav5 = [' Minecraft', 'Pickaxe']
+var fav2 = ['Ocarina', 'Navi']
+var fav3 = ['What Remains of Edith Finch?', 'Edith']
+var fav4 = ['Journey', 'Robe dude']
+var fav5 = ['Minecraft', 'Pickaxe']
 var favGames = []
 favGames.push(fav1[0], fav2[0], fav3[0], fav4[0], fav5[0]);
 alert(favGames);
@@ -26,4 +26,10 @@ var bestWorst = [fav1, fav5]
 console.log(bestWorst)
 alert(bestWorst.length)
 
+
+for (var i = 0; i < favGames.length; i++){
+  if (favGames[i] == 'Journey'){
+    alert(`You're favorite game is ${favGames[i]} and you're favorite character is ${fav4[1]}`)
+  }
+}
 //to do: age gate program with date object and day 3 take home
