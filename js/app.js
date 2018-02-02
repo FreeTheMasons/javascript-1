@@ -73,7 +73,7 @@ for (i = 0; i < 3; i++){
 
 
 for (var i = 0; i < todo.length; i++ ){
-  todo[i] = [todo[i], prompt(`how many days will ${todo[i]} take?`)]
+  todo[i] = [todo[i], prompt(`What day will you complete ${todo[i]} on?`, 'Friday, Saturday, Sunday')]
 
 }
 //   [[task][length], [task][length]]
@@ -81,9 +81,32 @@ var longest = 0;
 var i = 0;
 
 while (i < todo.length){
-  if(longest < todo[i][1]){
-    longest = todo[i];
+  switch(todo[i][1].toLowerCase()) {
+    case 'sunday':
+      console.log(todo[i]);
+      break;
+    default:
+      break;
   }
   i++
 }
-console.log(longest)
+
+var  n = 0
+
+do {
+  switch(todo[i][1].toLowerCase()){
+    case 'sunday':
+      break;
+    default:
+      todo[i].push('done');
+      break;
+  }
+  n++
+} while (n < todo.length)
+
+for (i = 0; i < todo.length; i++){
+  if(todo[i][2] == 'done'){
+    alert(`${todo[i]} is ${todo[i][2]}`)
+  }
+}
+//fix all this shit
