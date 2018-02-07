@@ -1,0 +1,15 @@
+.page{
+  background-color: dodgerblue;
+  height:900px;
+  width: 95%;
+}
+
+.text{
+  position: relative;
+  top: 330px;
+}
+
+.my-btn{
+  position:relative;
+  top: 350px;
+}
