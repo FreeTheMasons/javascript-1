@@ -7,9 +7,16 @@
 .text{
   position: relative;
   top: 330px;
+  left: 50px;
 }
 
 .my-btn{
   position:relative;
   top: 350px;
+}
+
+.myform{
+  position: relative;
+  top: 370px;
+  right: 100px;
 }

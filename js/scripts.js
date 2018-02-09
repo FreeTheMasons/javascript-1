@@ -32,11 +32,26 @@ document.querySelector('.page').addEventListener('mouseleave', function(event){
   this.style.backgroundColor = 'dodgerblue';
   });
 });
-  document.querySelector('.text').addEventListener('keyup', function(event){
-    this.style.textColor = 'ivory'
+  document.querySelector('.myform').addEventListener('keyup', function(event){
+    document.querySelector('.text').style.color = 'ivory';
 });
 
 
-document.querySelector('.face').addEventListener('click', function(e){
-  location.href = "https://www.facebook.com/home.php"
-});
+// document.querySelector('.face').addEventListener('click', function(e){
+//   location.href = "https://www.facebook.com/home.php"
+// });
+
+// function tempConvert(temp, scale){
+//   var newDiv = document.createElement('h3');
+//   scale.toLowerCase()
+//   if(scale == 'c' || 'celsius'){
+//     var newContent = document.createTextNode(temp + 'C')
+//   } else if (scale == 'f' || 'fahrenheit') {
+//     var newContent = document.createTextNode(temp + 'F')
+//   }
+//   newDiv.appendChild(newContent)
+//   var currentDiv = document.querySelector('.page');
+//   document.body.insertBefore(newDiv, currentDiv);
+// }
+//
+// tempConvert('56', 'f');
